@@ -1,0 +1,4 @@
+Node.js >= 12.x
+npm >= 6.x
+Ionic CLI >= 6.x
+Angular >= 12.x
