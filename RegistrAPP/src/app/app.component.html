@@ -1,3 +1,15 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2>Welcome to the Home Page</h2>
+
+  <!-- Botón para navegar a la página About -->
+  <ion-button expand="full" [routerLink]="['/about']">Go to About</ion-button>
+
+  <!-- Botón para navegar a la página Contact -->
+  <ion-button expand="full" [routerLink]="['/contact']">Go to Contact</ion-button>
+</ion-content>
